@@ -7,7 +7,7 @@ services:
             context: .
             dockerfile: ./docker/Dockerfile
         volumes:
-            - "./data:/code/data"
+            - data:/code/data
             - "./certs:/code/certs"
         environment:
             - PYTHONUNBUFFERED=1
@@ -15,3 +15,5 @@ services:
         ports:
             - 8080:8080
 
+volumes:
+    data:
