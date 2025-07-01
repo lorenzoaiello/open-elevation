@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-OUTDIR="/code/data"
+OUTDIR="./data"
 mkdir -p "$OUTDIR"
 
 CUR_DIR=$(pwd)
