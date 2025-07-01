@@ -91,7 +91,7 @@ The following are instructions for Ubuntu/Debian compatible distros, and similar
 
 ```
 apt-get update -y
-apt-get install -y libspatialindex-dev unrar-free bc gdal-bin libgdal-dev
+apt-get install -y libspatialindex-dev unrar-free bc gdal-bin libgdal-dev unar
 pip install -r requirements.txt
 ```
 
